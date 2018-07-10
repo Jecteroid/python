@@ -52,7 +52,7 @@ for i in range(rand1):
     val = int(input(f'Введите {i+1}(Целое число) из {rand1} элементов 1-ого списка: '))
     list1.append(val)
 
-print('===== Исходные список =====')
+print('===== Исходный список =====')
 print(f'1-ый: {list1}')
 
 for i in range(rand1):
