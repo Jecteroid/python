@@ -34,12 +34,12 @@ def make_dir():
     if not name:
         print("Необходимо указать имя директории вторым параметром")
         return
-    dir_path = os.path.join(os.getcwd(), dir_name)
+    dir_path = os.path.join(os.getcwd(), name)
     try:
         os.mkdir(dir_path)
-        print('директория {} создана'.format(dir_name))
+        print('директория {} создана'.format(name))
     except FileExistsError:
-        print('директория {} уже существует'.format(dir_name))
+        print('директория {} уже существует'.format(name))
 
 
 def copy_file():

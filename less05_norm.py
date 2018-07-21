@@ -28,7 +28,7 @@ ans = input(
 
 while ans != '5':
     if ans == '1':
-        dir_name = input('Введите имя папки: ')
+        dir_name = input('Введите имя папки:')
         if os.path.isdir(dir_name):
             os.chdir(dir_name)
             print(f'Успешно перешел в папку {dir_name}')

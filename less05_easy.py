@@ -29,7 +29,7 @@ def remove_dir(name):
 
 
 def my_dirs():
-    print('Ваши папки:')
+    print('Ваши папки: ')
     for dir_or_file in os.listdir(os.getcwd()):
         if os.path.isdir(dir_or_file):
             print(dir_or_file)
